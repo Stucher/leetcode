@@ -13,5 +13,5 @@ func main() {
 	//fmt.Println(arr)
 	//fmt.Println(length)
 	//fmt.Println(countAndSay(4))
-	fmt.Println(plusOne([]int{9,9}))
+	fmt.Println(plusOne([]int{9, 9}))
 }
