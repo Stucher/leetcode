@@ -12,7 +12,7 @@ func removeDuplicates(nums []int) int {
 
 	for i := 0; i < initLength; i++ {
 		if tmpNum == nums[i] {
-			continue;
+			continue
 		}
 		tmpNum = nums[i]
 		nums[length] = nums[i]

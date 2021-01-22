@@ -23,7 +23,7 @@ func romanToInt(s string) int {
 		}
 
 		if romanIntMapping[c1] < romanIntMapping[c2] {
-			result = result + romanIntMapping[c2] - romanIntMapping[c1];
+			result = result + romanIntMapping[c2] - romanIntMapping[c1]
 			i += 2
 		} else {
 			result += romanIntMapping[c1]

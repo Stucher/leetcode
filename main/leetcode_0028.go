@@ -21,7 +21,7 @@ func strStr(haystack string, needle string) int {
 
 	for i := 0; i < lHayStack; i++ {
 		tmpI := i
-		fmt.Printf("%d\n",tmpI)
+		fmt.Printf("%d\n", tmpI)
 		for j := 0; j < lNeedle; j++ {
 			fmt.Printf("%d %d %c %c %d\n", i, j, rHayStack[i], rNeedle[j], tmpI)
 			if tmpI >= lHayStack {
