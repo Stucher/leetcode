@@ -1,3 +1,3 @@
-module github.com/stucher/leetcode
+module github.com/nicholasguan/leetcode
 
 go 1.13
