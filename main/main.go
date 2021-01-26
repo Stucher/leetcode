@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(maxProfit([]int{1, 7, 2, 4}))
+	fmt.Println(maxProfit2([]int{5, 4, 3, 2}))
 }
