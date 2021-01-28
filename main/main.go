@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(maxProfit2([]int{5, 4, 3, 2}))
+	fmt.Println(isPalindrome2("  #$%^45675676%&*  "))
 }
